@@ -26,7 +26,7 @@ public:
             return a;
         }
         else {
-            cerr << "Ïîìèëêà: ğîçïîä³ë íà íóëü!" << endl;
+            cout << "ÃÃ®Ã¬Ã¨Ã«ÃªÃ : Ã°Ã®Ã§Ã¯Ã®Ã¤Â³Ã« Ã­Ã  Ã­Ã³Ã«Ã¼!" << endl;
             return 0;
         }
     }
@@ -38,8 +38,8 @@ int main() {
     Calcul calc(4.32, 4.23, (-11.88));
     
     
-    cout << "Çíà÷åííÿ b: " << calc.b << endl;
-    cout << "Ğåçóëüòàò calc_a(): " << calc.calc_a() << endl;
+    cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã­Ã¿ b: " << calc.b << endl;
+    cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã² calc_a(): " << calc.calc_a() << endl;
 
     return 0;
 }
